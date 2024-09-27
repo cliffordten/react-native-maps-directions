@@ -123,7 +123,11 @@ declare module "react-native-maps-directions" {
     /**
      * Your Google Maps API Key
      */
-    apikey: string;
+    apikey?: string;
+    /**
+     * Data that is used to plot the map
+     */
+    geoData?: object;
     /**
      * Callback that is called when the routing has started.
      */
